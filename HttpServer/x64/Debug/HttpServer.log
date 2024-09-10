@@ -1,5 +1,0 @@
-﻿  HttpServer.cpp
-C:\Dev\LearnCPP\HttpServer\HttpServer\HttpServer.cpp(45,14): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
-C:\Dev\LearnCPP\HttpServer\HttpServer\HttpServer.cpp(55,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Dev\LearnCPP\HttpServer\HttpServer\HttpServer.cpp(76,13): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
-  HttpServer.vcxproj -> C:\Dev\LearnCPP\HttpServer\x64\Debug\HttpServer.exe
