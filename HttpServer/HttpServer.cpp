@@ -69,7 +69,7 @@ int main()
 	}
 
 	// accept incoming connection
-	struct sockaddr* their_addr;
+	struct sockaddr_storage their_addr;
 	socklen_t addr_size = sizeof their_addr;
 	int new_fd = accept(sock_fd, (struct sockaddr*)&their_addr, &addr_size);
 	if (new_fd == INVALID_SOCKET)
